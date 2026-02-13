@@ -63,6 +63,7 @@ class Node {
       } else {
         this.left = new Node(value);
       }
+      // actualizar la altura del nodo
       if (!this.right || this.right.height < this.left.height) {
         this.height = this.left.height + 1;
       }
@@ -81,22 +82,28 @@ class Node {
     this.balance();
   }
   balance() {
+    // detecta y corrige el desbalanceo del nodo
+
     const rightHeight = this.right ? this.right.height : 0;
     const leftHeight = this.left ? this.left.height : 0;
 
+    // si el izquierdo es mas alto que el derecho por mas de uno
     if (leftHeight > rightHeight + 1) {
       const leftRightHeight = this.left.right ? this.left.right.height : 0;
       const leftLeftHeight = this.left.left ? this.left.left.height : 0;
 
+      // validar rotacion doble izquierda
       if (leftRightHeight > leftLeftHeight) {
         this.left.rotateRR();
       }
 
       this.rotateLL();
     } else if (rightHeight > leftHeight + 1) {
+      
       const rightRightHeight = this.right.right ? this.right.right.height : 0;
       const rightLeftHeight = this.right.left ? this.right.left.height : 0;
 
+      // validar rotacion doble derecha
       if (rightLeftHeight > rightRightHeight) {
         this.right.rotateLL();
       }
