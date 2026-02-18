@@ -1,0 +1,7 @@
+a[href$=".com"] {
+    color: cadetblue;
+}
+
+input[type="tel"] {
+    background-color: lightyellow;
+}

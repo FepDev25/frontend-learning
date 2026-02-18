@@ -1,0 +1,7 @@
+ul li:last-child{
+    background-color:chartreuse;
+}
+
+ul li:last-of-type{
+    background-color:chartreuse;
+}

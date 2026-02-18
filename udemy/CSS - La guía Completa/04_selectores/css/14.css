@@ -1,0 +1,9 @@
+
+.elementos p:not(.texto) {
+  background-color:bisque;
+}
+
+
+.elementos p:not(.oferta):not(.descripcion) {
+  text-transform: uppercase;
+}

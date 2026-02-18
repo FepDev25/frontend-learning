@@ -1,0 +1,19 @@
+.texto {
+    background-color:aqua;
+}
+
+.azul {
+    color: blue;
+}
+
+.mayusculas {
+    text-transform: uppercase;
+}
+
+.texto.mayusculas {
+    font-size: 7rem;
+}
+
+.texto.alineacion {
+    text-align:right;
+}

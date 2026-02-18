@@ -1,0 +1,11 @@
+#especifico li:nth-child(even) {
+    background-color: lightgreen;
+}
+
+#especifico li:nth-child(2n+1) {
+    background-color: lightcoral;
+}
+
+#especifico li:nth-child(10) {
+    background-color: red;
+}
