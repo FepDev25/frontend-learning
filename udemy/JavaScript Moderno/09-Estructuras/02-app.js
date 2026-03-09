@@ -1,3 +1,5 @@
+// If...else
+
 let puntaje = 1000;
 
 if (puntaje === 1000){

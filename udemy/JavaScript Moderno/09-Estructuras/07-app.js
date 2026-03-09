@@ -1,3 +1,4 @@
+// Multiple conditions
 
 function compra(efectivo, credito, totalPagar) {
 

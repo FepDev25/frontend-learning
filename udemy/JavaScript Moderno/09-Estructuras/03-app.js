@@ -1,3 +1,5 @@
+// Condicionales en funciones
+
 function puedoPagar(dinero, totalPagar){
     console.log("Dinero: " + dinero);
     console.log("Total a pagar: " + totalPagar);
@@ -8,7 +10,6 @@ function puedoPagar(dinero, totalPagar){
         console.log("Saldo insuficiente");
     }
 }
-
 
 puedoPagar(300,100);
 puedoPagar(300,300);

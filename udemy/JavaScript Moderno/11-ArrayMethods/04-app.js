@@ -1,3 +1,5 @@
+// Array Methods - filter()
+
 const carrito = [
     { nombre: 'Monitor 27 Pulgadas', precio: 500 },
     { nombre: 'Television', precio: 100 },
@@ -7,7 +9,7 @@ const carrito = [
     { nombre: 'Celular', precio: 700 }
 ];
 
-
+// filter() - Retorna un nuevo arreglo con los elementos que cumplan la condición
 const carritoFiltrado = carrito.filter( producto => producto.precio > 400 );
 console.log(carritoFiltrado);
 

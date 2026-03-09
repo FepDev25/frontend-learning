@@ -1,3 +1,5 @@
+// Array Methods - Spread operator
+
 const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre'];    
 
 const carrito = [
@@ -10,6 +12,7 @@ const carrito = [
 ];
 console.log(carrito);
 
+// Spread operator - Retorna un nuevo arreglo con la unión de los arreglos que se le pasan como argumentos
 const meses2 = [...meses, 'Noviembre', 'Diciembre'];
 console.log(meses2);
 console.log(meses);
@@ -19,5 +22,6 @@ const producto = {
     precio: 300
 }
 
+// Spread operator - Retorna un nuevo arreglo con la unión de los arreglos que se le pasan como argumentos
 const carrito2 = [...carrito, producto];
 console.log(carrito2);

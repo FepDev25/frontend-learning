@@ -1,3 +1,5 @@
+// Else if
+
 function puedoPagar(dinero, totalPagar){
     console.log("Dinero: " + dinero);
     console.log("Total a pagar: " + totalPagar);
@@ -6,8 +8,7 @@ function puedoPagar(dinero, totalPagar){
         console.log("Se puede pagar. Saldo restante: " + (dinero - totalPagar));
     } else if (dinero === totalPagar){
         console.log("Se puede pagar, te quedas sin nada de dinero");
-    }
-    else{
+    } else{
         console.log("Saldo insuficiente");
     }
 }

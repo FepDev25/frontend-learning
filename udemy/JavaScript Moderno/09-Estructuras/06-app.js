@@ -1,3 +1,5 @@
+// Multiple conditions
+
 function compra(usuario, puedePagar) {
 
     if (usuario && puedePagar) {

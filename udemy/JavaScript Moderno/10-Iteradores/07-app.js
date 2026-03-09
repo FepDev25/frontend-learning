@@ -1,3 +1,5 @@
+// Iteradores: for...in
+
 const auto_1 = {
     modelo: 'Mustang',
     motor: 6.0,

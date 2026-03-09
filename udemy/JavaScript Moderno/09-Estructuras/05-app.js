@@ -1,3 +1,5 @@
+// Switch
+
 function puedoPagar(dinero, totalPagar, metodoPago){
     console.log("\nDinero: " + dinero);
     console.log("Total a pagar: " + totalPagar);
@@ -7,8 +9,7 @@ function puedoPagar(dinero, totalPagar, metodoPago){
         console.log("Se puede pagar. Saldo restante: " + (dinero - totalPagar));
     } else if (dinero === totalPagar){
         console.log("Se puede pagar, te quedas sin nada de dinero");
-    }
-    else{
+    } else{
         console.log("Saldo insuficiente");
         return;
     }
@@ -30,10 +31,7 @@ function puedoPagar(dinero, totalPagar, metodoPago){
     }
 }
 
-
 puedoPagar(300,100, "efectivo");
 puedoPagar(300,300, "cheque");
 puedoPagar(300,300, "otro");
 puedoPagar(300,305, "tarjeta");
-puedoPagar(300,"Letras");
-

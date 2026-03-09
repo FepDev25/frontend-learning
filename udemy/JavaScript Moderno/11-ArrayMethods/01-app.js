@@ -1,3 +1,5 @@
+// Array Methods - includes() y some()
+
 const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];    
 
 const carrito = [
@@ -10,18 +12,17 @@ const carrito = [
 ];
 
 // Comprobar si un valor existe en un arreglo
-
 meses.forEach((mes) => {
     if (mes === 'Enero') {
         console.log('Enero existe');
     }
 })
 
+// includes() - Retorna true o false
 const resultado = meses.includes('Enero');
 console.log(resultado);
 
-// Arreglo de objetos
-
+// some() - Retorna true o false
 const resultado2 = carrito.some((producto) => producto.nombre === 'Celular');
 console.log(resultado2);
 

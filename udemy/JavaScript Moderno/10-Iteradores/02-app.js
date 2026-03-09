@@ -1,16 +1,18 @@
+// Loops: break y continue
+
 console.log("Loop hasta encontrar 7")
 for (let i = 1; i <= 10; i++) {
     console.log(i);
     if (i === 7){
         console.log("7 encontrado");
-        break;
+        break; // Detiene la ejecución del loop
     }
 }
 
 console.log("Loop excluyendo 7")
 for (let i = 1; i <= 10; i++) {
     if (i === 7){
-        continue;
+        continue; // Salta a la siguiente iteración del loop, omitiendo el código que está debajo
     }
     console.log(i);
 }

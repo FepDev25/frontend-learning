@@ -1,3 +1,5 @@
+// Iteradores: for...of
+
 const pendientes = ["Tarea", "Comer", "Proyecto", "Estudiar"];
 
 const carrito = [

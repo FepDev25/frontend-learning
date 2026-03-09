@@ -1,3 +1,5 @@
+// Array Methods - findIndex()
+
 const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];    
 
 const carrito = [
@@ -9,12 +11,7 @@ const carrito = [
     { nombre: 'Celular', precio: 700 }
 ];
 
-meses.forEach((mes, index) => {
-    if (mes === 'Abril') {
-        console.log(`El mes ${mes} se encuentra en el índice ${index}`);
-    }
-})
-
+// findIndex() - Retorna el índice del primer elemento que cumpla la condición, de lo contrario retorna -1
 const indice = meses.findIndex( mes => mes === 'Abril' )
 console.log(`El mes Abril se encuentra en el índice ${indice}`);
 
