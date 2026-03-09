@@ -1,3 +1,5 @@
+// Métodos de los String
+
 console.log('Métodos de los String:');
 const producto = "Monitor de 20 pulgadas";
 console.log(producto);

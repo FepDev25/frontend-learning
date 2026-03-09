@@ -23,3 +23,14 @@ var num1 = 5,
     num3 = 15
 console.log(num1, num2, num3);
 
+var nombre = "Felipe",
+    apellido = "Peralta",
+    edad = 21,
+    pais = "Ecuador"
+console.log(nombre, apellido, edad, pais);
+
+// ver tipo de dato
+console.log(typeof producto);
+console.log(typeof disponible);
+console.log(typeof num1);
+console.log(typeof nombre);

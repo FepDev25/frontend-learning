@@ -1,3 +1,5 @@
+// Eliminar espacios en blanco al inicio y al final de un String
+
 const producto = "                         Monitor de 20 pulgadas                        ";
 console.log(producto + ` longitud : ${producto.length} `);
 

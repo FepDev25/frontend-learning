@@ -7,3 +7,7 @@ console.log(producto.concat(" con un precio de ").concat(precio));
 console.log(producto + " con un precio de " + precio);
 console.log(producto , " con un precio de " , precio);
 console.log(`${producto} con un precio de ${precio} `);
+
+const nombre = "Felipe";
+const saludo = `Hola me llamo ${nombre} y estoy aprendiendo JavaScript`;
+console.log(saludo);
