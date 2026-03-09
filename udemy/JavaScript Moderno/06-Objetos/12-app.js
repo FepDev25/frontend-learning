@@ -1,3 +1,5 @@
+// Crear objetos con funciones constructoras
+
 // Object literal
 const producto = {
     nombre : "Monitor de 20 pulgadas",
@@ -5,7 +7,7 @@ const producto = {
     disponible : true
 }
 
-// Object constructor
+// Object constructor (no recomendada)
 function Producto (nombre, precio){
     this.nombre = nombre;
     this.precio = precio;

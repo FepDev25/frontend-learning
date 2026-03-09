@@ -1,7 +1,9 @@
+// Agregar elementos a un array
+
 const meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo"];
 console.table(meses);
 
-meses.push("Junio");
+meses.push("Junio"); // Agrega al final del array
 meses.push("Julio");
 console.table(meses);
 
@@ -23,6 +25,9 @@ const producto3 = {
 
 carrito.push(producto1);
 carrito.push(producto2);
+
+console.table(carrito);
+
 carrito.unshift(producto3); // Agrega al inicio
 
 console.table(carrito);

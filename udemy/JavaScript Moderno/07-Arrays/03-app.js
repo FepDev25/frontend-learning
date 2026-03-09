@@ -1,3 +1,5 @@
+// Longitud de un array y recorrerlo
+
 const meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo"];
 console.table(meses);
 

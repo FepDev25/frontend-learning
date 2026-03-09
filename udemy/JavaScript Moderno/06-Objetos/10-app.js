@@ -1,3 +1,5 @@
+// Unir dos objetos
+
 const producto = {
     nombre : "Monitor de 20 pulgadas",
     precio : 300.5,
@@ -10,9 +12,9 @@ const medidas = {
 }
 
 // Unir dos objetos 1
-const result = Object.assign(producto, medidas);
+const result = Object.assign(producto, medidas, {color: "verde"});
 console.log(result);
 
 // Unir dos objetos 2
-const result2 = { ...producto, ...medidas }
+const result2 = { ...producto, ...medidas, ...{color: "verde"} }
 console.log(result2);

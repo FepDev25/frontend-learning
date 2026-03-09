@@ -1,3 +1,8 @@
+// Destructuring de objetos
+
+// Destructuring es una forma de extraer valores de un objeto o un array y asignarlos a variables. 
+// Es una sintaxis más limpia y fácil de leer que la forma tradicional de acceder a las propiedades de un objeto.
+
 const producto = {
     nombre : "Monitor de 20 pulgadas",
     precio : 300.5,
@@ -24,3 +29,15 @@ const persona = {
 
 const { nombreCompleto, edad, casado } = persona;
 console.log(nombreCompleto, edad, casado);
+
+const gato = {
+    nombre: "Pedrito",
+    color: "Naranja",
+    raza: "Siames",
+    edad: 2
+}
+
+const { color } = gato;
+console.log(color);
+
+

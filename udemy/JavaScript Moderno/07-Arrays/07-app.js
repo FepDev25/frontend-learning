@@ -1,3 +1,5 @@
+// Eliminar elementos del arreglo
+
 let carrito = [];
 
 const producto1 = {
@@ -20,16 +22,16 @@ const producto4 = {
 }
 
 carrito = [...carrito, producto1, producto2, producto3, producto4];
-console.log(carrito);
+console.table(carrito);
 
 // Eliminar el elemento final
 carrito.pop();
-console.log(carrito);
+console.table(carrito);
 
 // Eliminar el elemento del inicio
 carrito.shift();
-console.log(carrito);
+console.table(carrito);
 
 // ELiminar otros elemento
-carrito.splice(0, 1);
-console.log(carrito);
+carrito.splice(0, 1); // Elimina a partir del indice 0, 1 elemento
+console.table(carrito);

@@ -1,5 +1,7 @@
 "use strict"; // Evaluar el código Js de manera estricta
 
+// Congelar un objeto, no se pueden modificar los valores de las llaves del objeto
+
 const producto = {
     nombre : "Monitor de 20 pulgadas",
     precio : 300.5,

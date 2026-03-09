@@ -1,3 +1,5 @@
+// Destructuring de objetos doblemente anidados
+
 const producto = {
     nombre : "Monitor de 32 pulgadas",
     precio : 300.5,
@@ -16,5 +18,5 @@ const producto = {
 }
 console.log(producto);
 
-const { nombre, information: { fabricante : { pais, ciudad } } } = producto;
-console.log(nombre, pais, ciudad);
+const { nombre, information: { fabricante : { pais, ciudad }, color } } = producto;
+console.log(nombre, pais, ciudad, color);
