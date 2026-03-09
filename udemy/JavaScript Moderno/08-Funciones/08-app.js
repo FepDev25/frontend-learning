@@ -1,3 +1,4 @@
+// Funciones con retorno de valores
 
 function sumar(num1 = 0, num2 = 0) {
     return num1 + num2;
@@ -5,7 +6,6 @@ function sumar(num1 = 0, num2 = 0) {
 
 const result = sumar(10,23);
 console.log(result);
-
 
 let total = 0;
 

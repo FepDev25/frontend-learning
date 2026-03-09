@@ -1,3 +1,5 @@
+// Funciones dentro de objetos
+
 const reproductor = {
 
     reproducir : function(id){

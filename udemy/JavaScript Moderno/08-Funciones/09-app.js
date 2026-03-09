@@ -1,3 +1,5 @@
+// Funciones en objetos (métodos)
+
 const reproductor = {
     song : '',
 
@@ -11,13 +13,13 @@ const reproductor = {
         this.song = song;
     },
 
-    get getSong (){
+    get getSong(){
         return this.song
     }
 }
 
 reproductor.setSong("Close to the edge");
-console.log(reproductor.getSong);
+console.log(reproductor.getSong); // sin los paréntesis porque es un getter
 
 reproductor.reproducir(2);
 reproductor.pausar();

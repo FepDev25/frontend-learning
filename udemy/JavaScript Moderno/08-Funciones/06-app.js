@@ -1,3 +1,5 @@
+// Asignar valores por defecto a los parámetros de una función
+
 function saludar(nombre="Sin nombre", apellido="Sin apellido") {
     console.log(`Hola ${nombre} ${apellido}`);
 }

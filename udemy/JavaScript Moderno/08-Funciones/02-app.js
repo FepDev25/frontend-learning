@@ -1,5 +1,4 @@
-
-sumar();
+sumar(); // se puede llamar antes de la función
 function sumar(){
     console.log(2+2);
 }

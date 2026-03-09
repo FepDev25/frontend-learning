@@ -1,3 +1,5 @@
+// Función que llama a otras funciones
+
 iniciarApp("Felipe");
 
 function iniciarApp(nombre="No nombre") {

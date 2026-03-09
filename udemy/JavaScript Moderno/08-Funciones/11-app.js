@@ -1,3 +1,4 @@
+// Funciones flecha con un solo parámetro y retorno implícito
 
 const sumar5 = (num) => num + 5;
 console.log(sumar5(10));
