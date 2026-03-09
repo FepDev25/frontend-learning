@@ -1,3 +1,5 @@
+// Operadores aritméticos en JavaScript
+
 const num1 = 100;
 const num2 = 10;
 

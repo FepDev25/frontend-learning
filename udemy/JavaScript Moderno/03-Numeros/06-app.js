@@ -1,3 +1,5 @@
+// Conversiones de números en JavaScript
+
 const num1 = "20";
 const num2 = "20.2";
 const num3 = 30;

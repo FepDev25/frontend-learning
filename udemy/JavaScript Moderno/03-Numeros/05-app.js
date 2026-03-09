@@ -1,3 +1,5 @@
+// Incrementos y decrementos en JavaScript
+
 let puntaje = 10;
 console.log(puntaje++); // 10
 console.log(puntaje); // 11

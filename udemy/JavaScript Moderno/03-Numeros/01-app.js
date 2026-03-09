@@ -1,3 +1,5 @@
+// Numeros en JavaScript
+
 const num1 = 20;
 const num2 = 30;
 const num3 = 20.5;
@@ -10,5 +12,6 @@ console.log(num3);
 console.log(num4);
 console.log(num5);
 
+// No es recomendable usar el constructor Number, pero es posible hacerlo
 const num6 = new Number(90);
 console.log(num6);

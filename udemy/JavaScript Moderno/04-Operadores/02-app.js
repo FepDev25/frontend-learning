@@ -1,3 +1,5 @@
+// Undefined y null
+
 console.log("**********Undefined***********")
 let numero;
 console.log(numero);

@@ -1,3 +1,5 @@
+// Precedencia de operadores en JavaScript
+
 console.log(20+30*2);
 console.log((20+30)*2);
 
