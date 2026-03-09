@@ -1,20 +1,23 @@
-console.log("******** Query selector ********")
+// query selector
+// retorno maximo un elemento, el primero que coincida con el selector
 
-const card = document.querySelector(".card") // Retorna máximo un elemento
-console.log(card)
+console.log("******** Query selector ********");
 
-// Se pueden tener conectores específicos como en CSS
-const info = document.querySelector(".premium .info")
-console.log(info)
+let card = document.querySelector(".card"); // retorna el primer elemento que coincida con el selector
+console.log(card);
 
-// Seleccionar el segundo card de hospedaje
-const card2 = document.querySelectorAll("section.hospedaje .card:nth-child(2)")
-console.log(card2)
+// se puede tener selectores específicos como en css
+// se selecciona el primer elemento con la clase info dentro de un elemento con la clase premium
+const info = document.querySelector(".premium .info");
+console.log(info);
 
-// Seleccionar el formulario
-const form = document.querySelector("#formulario")
-console.log(form)
+const segundoCard = document.querySelector("section.hospedaje .card:nth-child(2)");
+console.log(segundoCard);
 
-// Seleccionar elementos html
-const nav = document.querySelector("nav")
-console.log(nav)
+// seleccionar formulario
+const formulario = document.querySelector("#formulario");
+console.log(formulario);
+
+// seleccionar elementos HTML
+const nav = document.querySelector("nav");
+console.log(nav);

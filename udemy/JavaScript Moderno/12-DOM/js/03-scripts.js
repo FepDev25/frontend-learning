@@ -1,7 +1,6 @@
-console.log("******** Get Element by ID ********")
+// seleccionar elementos por id
 
-const formulario = document.getElementById('formulario')
-console.log(formulario)
+console.log("******** Get Element by ID ********");
 
-const noExist = document.getElementById('noExiste')
-console.log(noExist)
+const form = document.getElementById("formulario");
+console.log(form);

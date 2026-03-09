@@ -1,14 +1,16 @@
-console.log("******** Modificar texto o imágenes ********")
+// modificar texto o imagenes con Js
 
-const encabezado = document.querySelector("h1")
-console.log(encabezado)
-console.log(encabezado.innerText) // si en el css visibility: hidden, no lo trae
-console.log(encabezado.textContent)
-console.log(encabezado.innerHTML) // Se trae el HTML
+let encabezado = document.querySelector('.contenido-hero h1');
+console.log(encabezado);
 
-document.querySelector("h1").textContent  = "Nuevo texto desde JS"
+// acceder al texto
+console.log(encabezado.innerText); // se trae el texto pero no el contenido oculto, como el span
+console.log(encabezado.textContent); // se trae todo el texto, incluso el contenido oculto
+console.log(encabezado.innerHTML); // se trae el html
 
-const imagen = document.querySelector("img")
-console.log(imagen)
-console.log(imagen.src)
-console.log(imagen.alt)
+document.querySelector('.contenido-hero h1').textContent = 'Nuevo encabezado desde Js';
+
+const imagen = document.querySelector('.card img');
+console.log(imagen);
+console.log(imagen.src);
+imagen.src = 'img/hacer2.jpg';

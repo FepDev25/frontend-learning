@@ -1,15 +1,18 @@
-console.log("******** Get elements by class ********")
+// seleccionar elementos por su clase
 
-const header = document.getElementsByClassName('header');
+console.log("******** Get Element by Class Name ********");
+
+let header = document.getElementsByClassName("header");
 console.log(header);
 
-const hero = document.getElementsByClassName('hero');
+header = document.getElementsByClassName("header")[0];
+console.log(header);
+
+const hero = document.getElementsByClassName("hero");
 console.log(hero);
 
-// Si las clases existen más de una vez, se devuelve un array
-const contenedores = document.getElementsByClassName('contenedor');
+const contenedores = document.getElementsByClassName("contenedor");
 console.log(contenedores);
 
-// Si una clase no existe
-const noExiste = document.getElementsByClassName('no-existe');
+const noExiste = document.getElementsByClassName("no-existe");
 console.log(noExiste);
